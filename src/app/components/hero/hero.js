@@ -11,10 +11,10 @@ export default function Hero() {
         <div className="flex flex-wrap justify-center">
           <Link href="/#about"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">About</button></Link>
           <Link href="/#LumDAO"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">LumDAO</button></Link>
-          <Link href="/#tools"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Team</button></Link>
-          <Link href="/#faq"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Tools</button></Link>
-          <Link href="/#Join Us!"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Marketplace</button></Link>
-          <Link href="/#Join Us!"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Socials</button></Link>
+          <Link href="/#team"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Team</button></Link>
+          <Link href="/#tools"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Tools</button></Link>
+          <Link href="https://www.flowty.io/collection/0x427ceada271aa0b1/SturdyItems" target="_blank"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Marketplace</button></Link>
+          <Link href="/#socials"><button className="w-[34svw] font-semibold text-[#404040] bg-[#FCFAFF] text-sm px-5 py-3 rounded-md border border-[#5AC9F4] mb-4 mx-2">Socials</button></Link>
         </div>
       </div>
       <div className="w-[75%] mx-auto">

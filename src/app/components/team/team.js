@@ -16,7 +16,7 @@ export default function Team() {
             <p className="text-md text-[#404040] mt-3">Head Lum. Big Cheese. Main man. Lum resurrector. Man of many nicknames and only singular eye.</p>
             <hr className="my-2" />
             <div className="w-full h-8 pt-6 flex flex-row items-center pl-2">
-              <Image src="./x-icon.svg" width="20" height="20" alt="Thirdcoaster Twitter" />
+              <Image src="./twitter-icon.svg" width="20" height="20" alt="Thirdcoaster Twitter" />
             </div>
           </div>
         </div>
@@ -29,8 +29,8 @@ export default function Team() {
             <hr className="my-2" />
             <p className="text-md text-[#404040] mt-3">Artist behind the Hoodlums project. Culture obsessed. Capturing the Zeitgeist since day 1.</p>
             <hr className="my-2" />
-            <div className="w-full h-6 pt-6 flex flex-row items-center px-2">
-              <Image src="./x-icon.svg" width="20" height="20" alt="SomeHoodlum Twitter" />
+            <div className="w-full h-6 pt-6 flex flex-row items-center pl-2">
+              <Image src="./twitter-icon.svg" width="20" height="20" alt="SomeHoodlum Twitter" />
               <Image src="./ig-icon.svg" width="23" height="23" alt="SomeHoodlum Instagram" className="ml-2" />
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Team() {
             <p className="text-md text-[#404040] mt-3">Web3 Huberman. Mined $BTC in '09 and $GAME in '24.</p>
             <hr className="my-2" />
             <div className="w-full h-8 pt-6 flex flex-row items-center pl-2">
-              <Image src="./x-icon.svg" width="20" height="20" alt="Thirdcoaster Twitter" />
+              <Image src="./twitter-icon.svg" width="20" height="20" alt="Dr Mawz Twitter" />
             </div>
           </div>
         </div>
