@@ -5,7 +5,7 @@ export default function Tools() {
   return (
     <>
       <div className="w-full min-h-[100svh] flex flex-col bg-[#F08B8E] pt-14">
-        <h2 className="mx-auto text-[#202020] font-marker text-4xl" id="about">Tools</h2>
+        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl" id="about">Tools</h2>
         <h3 className="mx-6 pt-8 text-[#404040] font-dmsans text-lg">Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
