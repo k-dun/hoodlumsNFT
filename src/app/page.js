@@ -4,6 +4,7 @@ import Lumdao from './components/lumdao/lumdao';
 import Team from './components/team/team';
 import Tools from './components/tools/tools';
 import Socials from './components/socials/socials';
+import Footer from './components/footer/footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Team />
       <Tools />
       <Socials />
+      <Footer />
     </>
   );
 }

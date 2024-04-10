@@ -5,8 +5,8 @@ export default function Team() {
   return (
     <>
       <div className="w-full min-h-[100svh] flex flex-col bg-[#67CBC3] pt-14 pb-4">
-        <h2 className="mx-auto text-[#FCFAFF] mb-6 font-marker text-4xl" id="about">TEAM</h2>
-        <div className="w-[80svw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
+        <h2 className="mx-auto text-[#FCFAFF] mb-6 font-marker text-4xl" id="team">TEAM</h2>
+        <div className="w-[80svw] md:w-[50vw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
           <div className="w-full bg-[#FCFAFF]">
             <Image src="https://www.duodot.com/lums/someHoodlum_4148.png" className="w-full border rounded-lg border-[#FCFAFF]" width="2000" height="520" alt="Lum #4148 aka Thirdcoaster" />
           </div>
@@ -20,7 +20,7 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div className="w-[80svw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
+        <div className="w-[80svw] md:w-[50vw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
           <div className="w-full bg-[#FCFAFF]">
             <Image src="/sh.png" className="w-full border rounded-lg border-[#FCFAFF]" width="2000" height="520" alt="SomeHoodlum Avatar" />
           </div>
@@ -35,7 +35,7 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div className="w-[80svw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
+        <div className="w-[80svw] md:w-[50vw] mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
           <div className="w-full bg-[#FCFAFF]">
             <Image src="/drmawz.jpg" className="w-full border rounded-lg border-[#FCFAFF]" width="2000" height="520" alt="Dr Mawz Avatar" />
           </div>
