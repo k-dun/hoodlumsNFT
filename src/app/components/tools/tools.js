@@ -23,7 +23,8 @@ export default function Tools() {
 
       <div className="hidden md:w-full md:min-h-[100svh] md:flex md:flex-col md:bg-[#F08B8E] md:pt-14">
         <h2 className="md:mx-auto md:text-[#FCFAFF] md:font-marker md:text-6xl" id="tools">Tools</h2>
-        <h3 className="md:mx-40 md:pt-10 md:text-[#404040] md:font-dmsans md:text-lg">Lorem ipsum dolor sit amet, 
+        <div className="md:w-full md:flex md:flex-row md:pt-12">
+          <h3 className="md:mx-20 md:w-[60vw] md:pt-6 md:text-[#404040] md:font-dmsans md:text-lg">Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat:<br />
@@ -32,10 +33,12 @@ export default function Tools() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
           mollit anim id est laborum:<br />
           <Link href="/lumresearch" target="_blank"><button className="md:w-[25svw] md:font-semibold md:text-[#404040] md:bg-[#FCFAFF] md:text-base md:mt-4 md:px-5 md:py-3 md:rounded-md md:border md:border-[#5AC9F4]">LUM RESEARCH</button></Link>
-        </h3>
-        <div className="md:w-full">
-          <Image src="/liluzi.png" className="md:w-[50vw] md:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
+          </h3>
+          <div className="md:w-full md:items-center md:justify-center md:pt-24 md:border-l md:border-l-[#FCFAFF]">
+            <Image src="/liluzi.png" className="md:w-[50vw] md:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
+          </div>
         </div>
+        
       </div>
     </>
   );
