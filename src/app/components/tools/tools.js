@@ -33,7 +33,7 @@ export default function Tools() {
           mollit anim id est laborum:<br />
           <Link href="/lumresearch" target="_blank"><button className="md:w-[25svw] md:font-semibold md:text-[#404040] md:bg-[#FCFAFF] md:text-base md:mt-4 md:px-5 md:py-3 md:rounded-md md:border md:border-[#5AC9F4]">LUM RESEARCH</button></Link>
         </h3>
-        <div className="md:w-full md:pt-6">
+        <div className="md:w-full">
           <Image src="/liluzi.png" className="md:w-[50vw] md:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
         </div>
       </div>
