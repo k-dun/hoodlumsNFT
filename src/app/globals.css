@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 #bodyContainer {
-  max-width: 1440px;
   margin: auto;
+  margin: 0;
   padding: 0;
-  background-color: #F399A5;
   scroll-behavior: smooth;
 }
