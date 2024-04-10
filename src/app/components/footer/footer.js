@@ -12,10 +12,10 @@ export default function Footer() {
         <h4 className="text-xs text-center pt-2 text-[#FCFAFF]">Made by: <Link href="https://twitter.com/kdun_xyz" target="_blank"><span className="text-[#404040]">Lum#2865</span></Link></h4>
       </div>
 
-      <div className="sm:hidden md:w-full md:flex md:flex-row md:items-center md:bg-[#83AF95] md:py-6 md:px-6">
+      <div className="hidden md:w-full md:flex md:flex-row md:items-center md:bg-[#83AF95] md:py-6 md:px-6">
         <Image src="./copyright.svg" width="20" height="20" alt="Copyright sign" />
         <h4 className="md:text-base md:text-[#FCFAFF] md:flex-grow"> 2024 Hoodlums NFT. All Rights Reserved.</h4>
-        <h4 className="md:text-base md:text-[#FCFAFF]">Made by: <Link href="https://twitter.com/kdun_xyz" target="_blank"><span className="md:text-[#404040]">Lum#2865</span></Link></h4>
+        <h4 className="md:text-base md:text-[#FCFAFF]">Buidl by: <Link href="https://twitter.com/kdun_xyz" target="_blank"><span className="md:text-[#404040]">Lum#2865</span></Link></h4>
       </div>
     </>
   );
