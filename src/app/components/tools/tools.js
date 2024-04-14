@@ -21,7 +21,7 @@ export default function Tools() {
         </div>
       </div>
 
-      <div className="hidden md:w-full md:min-h-[100svh] md:flex md:flex-col md:bg-[#F08B8E] md:pt-14">
+      <div className="hidden md:w-full md:flex md:flex-col md:bg-[#F08B8E] md:pt-14 md:pb-8">
         <h2 className="md:mx-auto md:text-[#FCFAFF] md:font-marker md:text-6xl" id="tools">Tools</h2>
         <div className="md:w-full md:flex md:flex-row md:pt-12">
           <h3 className="md:mx-20 md:w-[60vw] md:pt-6 md:text-[#404040] md:font-dmsans md:text-lg">Lorem ipsum dolor sit amet, 
@@ -38,7 +38,6 @@ export default function Tools() {
             <Image src="/liluzi.png" className="md:w-[50vw] md:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
           </div>
         </div>
-        
       </div>
     </>
   );

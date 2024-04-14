@@ -16,7 +16,7 @@ export default function Socials() {
         </div>
       </div>
 
-      <div className="hidden md:w-full md:min-h-[50vh] md:flex md:flex-col md:bg-[#83AF95] md:pt-14 md:items-center md:border-b md:border-b-[#FCFAFF]">
+      <div className="hidden md:w-full md:flex md:flex-col md:bg-[#83AF95] md:pt-14 md:items-center md:border-b md:border-b-[#FCFAFF]">
         <h2 className="md:mx-auto md:text-[#FCFAFF] md:font-marker md:text-6xl" id="socials">Socials</h2>
         <div className="md:w-full md:flex md:flex-row">
           <div className="md:w-[50vw] md:pt-12 md:flex md:flex-row md:px-32 md:justify-between md:items-center">
