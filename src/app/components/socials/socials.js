@@ -19,10 +19,10 @@ export default function Socials() {
       <div className="hidden md:w-full md:flex md:flex-col md:bg-[#83AF95] md:pt-14 md:items-center md:border-b md:border-b-[#FCFAFF]">
         <h2 className="md:mx-auto md:text-[#FCFAFF] md:font-marker md:text-6xl" id="socials">Socials</h2>
         <div className="md:w-full md:flex md:flex-row">
-          <div className="md:w-[50vw] md:pt-12 md:flex md:flex-row md:px-32 md:justify-between md:items-center">
-            <Image src="./twitter-icon.svg" width="40" height="40" alt="Hoodlums Twitter" />
-            <Image src="./ig-icon.svg" width="45" height="45" alt="Hoodlums Instagram" className="md:ml-2" />
-            <Image src="./discord.svg" width="50" height="50" alt="Hoodlums Discord" className="md:ml-1" />
+          <div className="md:w-[50vw] md:pt-12 md:flex md:flex-row md:px-32 md:justify-center md:items-center">
+            <Image src="./twitter-icon.svg" width="60" height="60" alt="Hoodlums Twitter" className="md:mx-6" />
+            <Image src="./ig-icon.svg" width="65" height="65" alt="Hoodlums Instagram" className="md:mx-6" />
+            <Image src="./discord.svg" width="75" height="75" alt="Hoodlums Discord" className="md:mx-6" />
           </div>
           <div className="md:w-[50vw] md:pt-8">
             <Image src="/socials.png" className="md:w-full" width="400" height="400" alt="Art by SomeHoodlum" />
