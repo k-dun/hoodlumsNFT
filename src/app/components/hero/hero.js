@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <>
-      <div className="w-full min-h-[100svh] flex flex-col justify-center pb-24 bg-[#F399A5]">
+      <div className="w-full h-[100svh] flex flex-col justify-center pb-24 bg-[#F399A5]">
         <div className="px-6">
           <Image src="/hoodlums-header.jpg" priority={true} className="w-full rounded-sm" width="2000" height="520" alt="Hoodlums NFT Project - art by SomeHoodlum" />
         </div>
