@@ -1,0 +1,7 @@
+#lumResearchContainer {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0;
+  background-color: #F399A5;
+  scroll-behavior: smooth;
+}
