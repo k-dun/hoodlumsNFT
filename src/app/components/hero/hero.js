@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <div className="w-full h-[100vh] flex flex-col justify-center pb-24 bg-[#F399A5]">
-        <div className="lg:w-[60vw] lg:max-w-[1528px] lg:mx-auto">
+        <div className="lg:w-[60vw] lg:mx-auto">
           <div className="px-6 lg:w-[60vw]">
             <Image src="/hoodlums-header.jpg" priority={true} className="w-full rounded-sm lg:border-b-2 lg:border-[#FCFAFF]" width="2000" height="520" alt="Hoodlums NFT Project - art by SomeHoodlum" />
           </div>
@@ -21,16 +21,16 @@ export default function Hero() {
             </div>
             <div className="hidden lg:flex lg:flex-col lg:justify-center">
               <div className="lg:w-full lg:flex lg:flex-row">
-                <Link href="/#about" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">About</button></Link>
-                <Link href="/#lumdao" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">LumDAO</button></Link>
+                <Link href="/#about" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">About</button></Link>
+                <Link href="/#lumdao" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">LumDAO</button></Link>
               </div>
               <div className="lg:w-full lg:flex lg:flex-row">
-                <Link href="/#team" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Team</button></Link>
-                <Link href="/#tools" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8  py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Tools</button></Link>
+                <Link href="/#team" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Team</button></Link>
+                <Link href="/#tools" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8  py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Tools</button></Link>
               </div>
               <div className="lg:w-full lg:flex lg:flex-row">
-                <Link href="https://www.flowty.io/collection/0x427ceada271aa0b1/SturdyItems" target="_blank"><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Marketplace</button></Link>
-                <Link href="/#socials" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Socials</button></Link>
+                <Link href="https://www.flowty.io/collection/0x427ceada271aa0b1/SturdyItems" target="_blank"><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Marketplace</button></Link>
+                <Link href="/#socials" scroll={false}><button className="lg:w-[25vw] font-semibold text-[#303030] bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-2xl xl:text-3xl px-5 lg:px-8 py-3 lg:py-4 rounded-md border lg:border-2 border-[#5AC9F4] mb-4 mx-2">Socials</button></Link>
               </div>
             </div>
           </div>
