@@ -63,7 +63,15 @@ export default function Home() {
         </div>
         <div className="w-full flex justify-center px-6 pt-5">
           <form id="nftForm" className="" onSubmit={handleFormSubmit}>
-            <input className="rounded-md pl-2 py-2 mr-2" type="text" id="nftId" value={searchId} onChange={handleInputChange} placeholder="420" />
+            <input className="rounded-md pl-2 py-2 mr-2" type="number" id="nftId" value={searchId} 
+              onChange={handleInputChange} placeholder="420" min="1" max="5000"
+              onInvalid={(e) => {
+                e.target.setCustomValidity('U high? Strictly numbers in 1-5000 range bruv.');
+              }}
+              onInput={(e) => {
+                e.target.setCustomValidity('');
+              }}
+            />
             <button className="rounded-md bg-[#202020] text-[#FCFAFF] px-4 py-2" type="submit">Find My Lum!</button>
           </form>
         </div>
