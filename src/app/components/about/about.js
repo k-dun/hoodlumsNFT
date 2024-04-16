@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <div className="md:hidden w-full flex flex-col bg-[#5AC9F4] pt-14">
-        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl" id="about">ABOUT</h2>
+      <div className="md:hidden w-full flex flex-col bg-[#5AC9F4] pt-14" id="about">
+        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl">ABOUT</h2>
         <h3 className="mx-6 pt-8 text-[#303030] font-dmsans text-lg">Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
