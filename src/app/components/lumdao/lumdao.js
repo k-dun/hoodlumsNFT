@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Lumdao() {
   return (
     <>
-      <div className="lg:hidden w-full flex flex-col bg-[#9C99CB] pt-14">
-        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl md:text-6xl" id="lumdao">LumDAO</h2>
+      <div className="lumDAO-section lg:hidden w-full flex flex-col bg-[#9C99CB] pt-14">
+        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl md:text-6xl">LumDAO</h2>
         <div className="md:w-[70vw] md:mx-auto">
           <h3 className="mx-6 pt-8 text-[#303030] font-dmsans text-lg md:text-2xl">Lorem ipsum dolor sit amet, 
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -23,8 +23,8 @@ export default function Lumdao() {
         </div>
       </div>
 
-      <div className="hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#9C99CB] lg:pt-16">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl" id="lumdao">LumDAO</h2>
+      <div className="lumDAO-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#9C99CB] lg:pt-16">
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl">LumDAO</h2>
         <div className="lg:w-full lg:flex lg:flex-row lg:mt-16">
           <div className="lg:w-[50vw] lg:border-r lg:border-[#FCFAFF]">
             <Image src="/letsbuildfam.png" className="lg:w-full lg:rounded-4xl lg:self-end" width="2000" height="520" alt="Let's build fam by SomeHoodlum" />

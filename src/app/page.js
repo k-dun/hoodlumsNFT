@@ -7,31 +7,31 @@ import Team from './components/team/team';
 import Tools from './components/tools/tools';
 import Socials from './components/socials/socials';
 import Footer from './components/footer/footer';
-import { useEffect } from "react";
 
 export default function Home() {
 
-  useEffect(() => {
-    const handleHashChange = () => {
-      const { hash } = window.location;
-      if (hash) {
-        const element = document.getElementById(hash.slice(1));
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    };
+  const navLinks = {
+    mobileAbout: '.about-section',
+    mobileLumDAO: '.lumDAO-section',
+    mobileTeam: '.team-section',
+    mobileTools: '.tools-section',
+    mobileSocials: '.socials-section',
+    desktopAbout: '.about-section.hidden',
+    desktopLumDAO: '.lumDAO-section.hidden',
+    desktopTeam: '.team-section.hidden',
+    desktopTools: '.tools-section.hidden',
+    desktopSocials: '.socials-section.hidden',
+  };
 
-    window.addEventListener("hashchange", handleHashChange);
-
-    return () => {
-      window.removeEventListener("hashchange", handleHashChange);
-    };
-  }, []);
+  const handleNavClick = (linkName) => {
+    const targetSection = document.querySelector(navLinks[linkName]);
+    console.log('Target section: ', targetSection);
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <>
-      <Hero />
+      <Hero navLinks={navLinks} onNavClick={handleNavClick} />
       <About />
       <Lumdao />
       <Team />

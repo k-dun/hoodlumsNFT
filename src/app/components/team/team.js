@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Team() {
   return (
     <>
-      <div className="lg:hidden w-full min-h-[100svh] flex flex-col bg-[#67CBC3] pt-14 pb-4">
-        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl md:text-6xl" id="team">TEAM</h2>
+      <div className="team-section lg:hidden w-full min-h-[100svh] flex flex-col bg-[#67CBC3] pt-14 pb-4">
+        <h2 className="mx-auto text-[#FCFAFF] font-marker text-4xl md:text-6xl">TEAM</h2>
         <div className="w-[80svw] md:w-[50vw] mt-8 md:mt-12 mx-auto flex flex-col border-2 rounded-lg border-[#FCFAFF] mb-4">
           <div className="w-full bg-[#FCFAFF]">
             <Image src="https://www.duodot.com/lums/someHoodlum_4148.png" className="w-full border rounded-lg border-[#FCFAFF]" width="2000" height="520" alt="Lum #4148 aka Thirdcoaster" />
@@ -51,8 +51,8 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#67CBC3] lg:pt-14 lg:pb-16">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:mb-10 lg:font-marker lg:text-6xl" id="team">TEAM</h2>
+      <div className="team-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#67CBC3] lg:pt-14 lg:pb-16">
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:mb-10 lg:font-marker lg:text-6xl">TEAM</h2>
         <div className="lg:w-full lg:flex lg:flex-row">
           <div className="lg:w-[25vw] lg:mx-auto lg:flex lg:flex-col lg:bg-[#FCFAFF] lg:border-2 lg:rounded-lg lg:border-[#FCFAFF] lg:mb-4">
             <div className="lg:w-full lg:bg-[#FCFAFF]">

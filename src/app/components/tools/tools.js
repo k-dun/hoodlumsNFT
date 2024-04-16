@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Tools() {
   return (
     <>
-      <div className="lg:hidden w-full flex flex-col bg-[#F08B8E] pt-14">
+      <div className="tools-section lg:hidden w-full flex flex-col bg-[#F08B8E] pt-14">
         <div className="md:w-[70vw] md:mx-auto">
-          <h2 className="mx-auto text-center text-[#FCFAFF] font-marker text-4xl md:text-6xl" id="tools">Tools</h2>
+          <h2 className="mx-auto text-center text-[#FCFAFF] font-marker text-4xl md:text-6xl">Tools</h2>
           <h3 className="mx-6 pt-8 md:pt-12 text-[#303030] font-dmsans text-lg md:text-2xl">Lorem ipsum dolor sit amet, 
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -23,8 +23,8 @@ export default function Tools() {
         </div>
       </div>
 
-      <div className="hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#F08B8E] lg:pt-14 lg:pb-14">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl" id="tools">Tools</h2>
+      <div className="tools-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#F08B8E] lg:pt-14 lg:pb-14">
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl">Tools</h2>
         <div className="lg:w-full lg:flex lg:flex-row lg:pt-12">
           <h3 className="lg:mx-16 lg:w-[55vw] lg:pt-6 lg:text-[#303030] lg:font-dmsans lg:text-3xl">Lorem ipsum dolor sit amet, 
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
