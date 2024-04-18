@@ -59,7 +59,7 @@ export default function Home() {
     <>
       <main className="w-full min-h-[100vh] flex flex-col bg-[#F299A5]">
         <div className="w-full px-6 py-4">
-          <Image src="/hoodlums-header.jpg" priority={true} className="w-full md:w-[80%] lg:w-[50%] md:mx-auto border-b-solid border-b-2 border-b-[#FCFAFF] rounded-sm" width="2000" height="520" alt="Hoodlums NFT Project Header by SomeHoodlum" />
+          <a href="/"><Image src="/hoodlums-header.jpg" priority={true} className="w-full md:w-[80%] lg:w-[50%] md:mx-auto border-b-solid border-b-2 border-b-[#FCFAFF] rounded-sm" width="2000" height="520" alt="Hoodlums NFT Project Header by SomeHoodlum" /></a>
         </div>
         <div className="w-full flex justify-center px-6 pt-5">
           <form id="nftForm" className="" onSubmit={handleFormSubmit}>
