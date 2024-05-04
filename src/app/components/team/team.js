@@ -74,7 +74,7 @@ export default function Team() {
               <p className="lg:text-3xl lg:font-semibold lg:text-center lg:text-[#202020]">SomeHoodlum</p>
               <p className="lg:text-2xl lg:text-[#404040] lg:mt-6">Artist behind the Hoodlums. Culture obsessed. Capturing the Zeitgeist since day 1.</p>
             </div>  
-            <div className="lg:w-full lg:pt-16 lg:pb-6 lg:flex lg:flex-row lg:pl-6">
+            <div className="lg:w-full lg:pt-16 lg:pb-6 lg:flex lg:flex-row lg:items-center lg:pl-6">
               <Link href="https://twitter.com/somehoodlum" target="_blank"><Image src="/team-twitter-icon.svg" width="30" height="30" alt="SomeHoodlum Twitter" /></Link>
               <Link href="https://www.instagram.com/somehoodlum/" target="_blank"><Image src="/team-ig-icon.svg" width="36" height="36" alt="SomeHoodlum Instagram" className="lg:ml-2" /></Link>
             </div>
