@@ -42,7 +42,7 @@ export default function Team() {
           <div className="w-full bg-[#FCFAFF] py-6 px-5 md:py-8 md:px-8">
             <p className="text-lg md:text-xl font-semibold text-center text-[#202020]">Dr Mawz</p>
             <hr className="my-2" />
-            <p className="text-base md:text-lg text-[#404040] mt-3">Web3 Huberman. Mined $BTC in '09 and $GAME in '24.</p>
+            <p className="text-base md:text-lg text-[#404040] mt-3">Web3 Huberman. Mined $BTC in &apos;09 and $GAME in &apos;24.</p>
             <hr className="my-2" />
             <div className="w-full h-8 pt-6 flex flex-row items-center pl-2">
               <Link href="https://twitter.com/TheDrMAWZ" target="_blank"><Image src="/team-twitter-icon.svg" width="20" height="20" alt="Dr Mawz Twitter" /></Link>
