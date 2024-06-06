@@ -40,7 +40,7 @@ export default function Team() {
             <Image src="/drmawz.jpg" className="w-full border rounded-lg border-[#FCFAFF]" width="2000" height="520" alt="Dr Mawz Avatar" />
           </div>
           <div className="w-full bg-[#FCFAFF] py-6 px-5 md:py-8 md:px-8">
-            <p className="text-lg md:text-xl font-semibold text-center text-[#202020]">Dr Mawz</p>
+            <p className="text-lg md:text-xl font-semibold text-center text-[#202020]">drMAWZ</p>
             <hr className="my-2" />
             <p className="text-base md:text-lg text-[#404040] mt-3">Web3 Huberman. Mined $BTC in &apos;09 and $GAME in &apos;24.</p>
             <hr className="my-2" />
