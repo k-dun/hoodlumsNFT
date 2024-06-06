@@ -30,7 +30,7 @@ export default function Tools() {
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
             consequat:<br />
-          <Link href="/gallery" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#404040] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:mb-8 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">View Gallery</button></Link><br />
+          <Link href="" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#404040] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:mb-8 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">View Gallery (soon!)</button></Link><br />
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
             mollit anim id est laborum:<br />

@@ -16,7 +16,7 @@ export default function Lumdao() {
             mollit anim id est laborum. <br /><br />
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
             mollit anim id est laborum.</h3>
-          <Link href="/lumresearch" target="_blank"><button className="w-[45svw] md:w-[25vw] font-semibold text-[#404040] bg-[#FCFAFF] text-base md:text-lg mt-6 ml-6 px-5 py-3 rounded-md border border-[#5AC9F4]">Find LumDAO</button></Link>
+          <Link href="https://toucans.ecdao.org/p/HOODLUMS" target="_blank"><button className="w-[45svw] md:w-[25vw] font-semibold text-[#404040] bg-[#FCFAFF] text-base md:text-lg mt-6 ml-6 px-5 py-3 rounded-md border border-[#5AC9F4]">Find LumDAO</button></Link>
           <div className="w-full pt-12">
             <Image src="/letsbuildfam.png" className="w-full md:w-[70vw] md:border-l md:border-[#FCFAFF]" width="2000" height="520" alt="Let's build fam by SomeHoodlum" />
           </div>
@@ -40,7 +40,7 @@ export default function Lumdao() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
               mollit anim id est laborum.
             </h3>
-            <Link href="/lumresearch" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#303030] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">Find LumDAO</button></Link>
+            <Link href="https://toucans.ecdao.org/p/HOODLUMS" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#303030] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">Find LumDAO</button></Link>
           </div>
         </div>
       </div>
