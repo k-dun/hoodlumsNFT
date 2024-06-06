@@ -24,13 +24,13 @@ export default function Lumdao() {
       </div>
 
       <div className="lumDAO-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#9C99CB] lg:pt-16">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl">LumDAO</h2>
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-4xl">LumDAO</h2>
         <div className="lg:w-full lg:flex lg:flex-row lg:mt-16">
           <div className="lg:w-[50vw] lg:border-r lg:border-[#FCFAFF]">
             <Image src="/letsbuildfam.png" className="lg:w-full lg:rounded-4xl lg:self-end" width="2000" height="520" alt="Let's build fam by SomeHoodlum" />
           </div>
           <div className="lg:w-[50vw] lg:flex lg:flex-col lg:mx-16 lg:pb-24">
-            <h3 className="lg:text-[#303030] lg:font-dmsans lg:text-3xl">Lorem ipsum dolor sit amet, 
+            <h3 className="lg:text-[#303030] lg:font-dmsans lg:text-xl">Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
               consequat. <br /><br />
@@ -40,7 +40,7 @@ export default function Lumdao() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
               mollit anim id est laborum.
             </h3>
-            <Link href="/lumresearch" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#303030] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-xl lg:mt-6 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">Find LumDAO</button></Link>
+            <Link href="/lumresearch" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#303030] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">Find LumDAO</button></Link>
           </div>
         </div>
       </div>

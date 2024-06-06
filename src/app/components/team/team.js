@@ -52,17 +52,17 @@ export default function Team() {
       </div>
 
       <div className="team-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#67CBC3] lg:pt-14 lg:pb-16">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:mb-10 lg:font-marker lg:text-6xl">TEAM</h2>
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:mb-10 lg:font-marker lg:text-4xl">TEAM</h2>
         <div className="lg:w-full lg:flex lg:flex-row">
           <div className="lg:w-[25vw] lg:mx-auto lg:flex lg:flex-col lg:bg-[#FCFAFF] lg:border-2 lg:rounded-lg lg:border-[#FCFAFF] lg:mb-4">
             <div className="lg:w-full lg:bg-[#FCFAFF]">
               <Image src="https://www.duodot.com/lums/someHoodlum_4148.png" className="lg:w-full lg:border lg:rounded-lg lg:border-[#FCFAFF]" width="2000" height="520" alt="Thirdcoaster Avatar" />
             </div>
-            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-8 lg:flex-grow">
-              <p className="lg:text-3xl lg:font-semibold lg:text-center lg:text-[#202020]">Thirdcoaster</p>
-              <p className="lg:text-2xl lg:text-[#404040] lg:mt-6">Head Lum. Main man. The resurrector. Man of many nicknames and only singular eye.</p>
+            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-6 lg:flex-grow">
+              <p className="lg:text-2xl lg:font-semibold lg:text-center lg:text-[#202020]">Thirdcoaster</p>
+              <p className="lg:text-xl lg:text-[#404040] lg:mt-6">Head Lum. Main man. The resurrector. Man of many nicknames and only singular eye.</p>
             </div>  
-            <div className="lg:w-full lg:pt-16 lg:pb-6 lg:flex lg:flex-row lg:pl-6 lg:self-end">
+            <div className="lg:w-full lg:pt-10 lg:pb-6 lg:flex lg:flex-row lg:pl-6 lg:self-end">
               <Link href="https://twitter.com/thirdcoastr" target="_blank"><Image src="/team-twitter-icon.svg" width="30" height="30" alt="Thirdcoaster Twitter" /></Link>
             </div>
           </div>
@@ -70,11 +70,11 @@ export default function Team() {
             <div className="lg:w-full lg:bg-[#FCFAFF]">
               <Image src="/sh.png" className="lg:w-full lg:border lg:rounded-lg lg:border-[#FCFAFF]" width="2000" height="520" alt="SomeHoodlum Avatar" />
             </div>
-            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-8 lg:flex-grow">
-              <p className="lg:text-3xl lg:font-semibold lg:text-center lg:text-[#202020]">SomeHoodlum</p>
-              <p className="lg:text-2xl lg:text-[#404040] lg:mt-6">Artist behind the Hoodlums. Culture obsessed. Capturing the Zeitgeist since day 1.</p>
+            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-6 lg:flex-grow">
+              <p className="lg:text-2xl lg:font-semibold lg:text-center lg:text-[#202020]">SomeHoodlum</p>
+              <p className="lg:text-xl lg:text-[#404040] lg:mt-6">Artist behind the Hoodlums. Culture obsessed. Capturing the Zeitgeist since day 1.</p>
             </div>  
-            <div className="lg:w-full lg:pt-16 lg:pb-6 lg:flex lg:flex-row lg:items-center lg:pl-6">
+            <div className="lg:w-full lg:pt-10 lg:pb-6 lg:flex lg:flex-row lg:items-center lg:pl-6">
               <Link href="https://twitter.com/somehoodlum" target="_blank"><Image src="/team-twitter-icon.svg" width="30" height="30" alt="SomeHoodlum Twitter" /></Link>
               <Link href="https://www.instagram.com/somehoodlum/" target="_blank"><Image src="/team-ig-icon.svg" width="36" height="36" alt="SomeHoodlum Instagram" className="lg:ml-2" /></Link>
             </div>
@@ -83,11 +83,11 @@ export default function Team() {
             <div className="lg:w-full lg:bg-[#FCFAFF]">
               <Image src="/drmawz.jpg" className="lg:w-full lg:border lg:rounded-lg lg:border-[#FCFAFF]" width="2000" height="520" alt="Dr Mawz Avatar" />
             </div>
-            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-8 lg:flex-grow">
-              <p className="lg:text-3xl lg:font-semibold lg:text-center lg:text-[#202020]">Dr Mawz</p>
-              <p className="lg:text-2xl lg:text-[#404040] lg:mt-6">Web3 Huberman. Mined $BTC in '09 and $GAME in '24.</p>
+            <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-6 lg:flex-grow">
+              <p className="lg:text-2xl lg:font-semibold lg:text-center lg:text-[#202020]">Dr Mawz</p>
+              <p className="lg:text-xl lg:text-[#404040] lg:mt-6">Web3 Huberman. Mined $BTC in &apos;09 and $GAME in &apos;24.</p>
             </div>  
-            <div className="lg:w-full lg:pt-16 lg:pb-6 lg:flex lg:flex-row lg:pl-6">
+            <div className="lg:w-full lg:pt-10 lg:pb-6 lg:flex lg:flex-row lg:pl-6">
               <Link href="https://twitter.com/TheDrMAWZ" target="_blank"><Image src="/team-twitter-icon.svg" width="30" height="30" alt="Dr Mawz Twitter" /></Link>
             </div>
           </div>

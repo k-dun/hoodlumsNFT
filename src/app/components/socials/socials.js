@@ -19,7 +19,7 @@ export default function Socials() {
       </div>
 
       <div className="socials-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:bg-[#83AF95] lg:pt-14 lg:items-center lg:border-b lg:border-b-[#FCFAFF]">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl">Socials</h2>
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-4xl">Socials</h2>
         <div className="lg:w-[70vw] lg:flex lg:flex-row">
           <div className="lg:w-[50vw] lg:pt-12 lg:flex lg:flex-row lg:px-32 lg:justify-center lg:items-center">
             <Image src="./twitter-icon.svg" width="60" height="60" alt="Hoodlums Twitter" className="lg:mx-6" />

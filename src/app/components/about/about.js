@@ -24,8 +24,8 @@ export default function About() {
       </div>
 
       <div className="about-section hidden md:hidden lg:w-full lg:flex lg:flex-col lg:items-center lg:bg-[#5ac9f4] lg:pt-14">
-        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-6xl">ABOUT</h2>
-        <h3 className="lg:w-[60vw] lg:pt-16 lg:text-[#303030] lg:font-dmsans lg:text-3xl">Lorem ipsum dolor sit amet, 
+        <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-4xl">ABOUT</h2>
+        <h3 className="lg:w-[60vw] lg:pt-16 lg:text-[#303030] lg:font-dmsans lg:text-xl">Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat. <br /><br />
