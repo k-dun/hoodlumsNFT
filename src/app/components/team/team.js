@@ -84,7 +84,7 @@ export default function Team() {
               <Image src="/drmawz.jpg" className="lg:w-full lg:border lg:rounded-lg lg:border-[#FCFAFF]" width="2000" height="520" alt="Dr Mawz Avatar" />
             </div>
             <div className="lg:w-full lg:bg-[#FCFAFF] lg:py-12 lg:px-6 lg:flex-grow">
-              <p className="lg:text-2xl lg:font-semibold lg:text-center lg:text-[#202020]">Dr Mawz</p>
+              <p className="lg:text-2xl lg:font-semibold lg:text-center lg:text-[#202020]">drMAWZ</p>
               <p className="lg:text-xl lg:text-[#404040] lg:mt-6">Web3 Huberman. Mined $BTC in &apos;09 and $GAME in &apos;24.</p>
             </div>  
             <div className="lg:w-full lg:pt-10 lg:pb-6 lg:flex lg:flex-row lg:pl-6">
