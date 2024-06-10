@@ -11,7 +11,7 @@ export default function Tools() {
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
             consequat:<br />
-          <Link href="/gallery" target="_blank"><button className="w-[50svw] md:w-[25vw] font-semibold text-[#404040] bg-[#FCFAFF] text-base md:text-lg my-6 px-5 py-3 rounded-md border border-[#5AC9F4]">Gallery</button></Link><br />
+          <Link href="/gallery" target="_blank"><button className="w-[50svw] md:w-[25vw] font-semibold text-[#404040] bg-[#FCFAFF] text-base md:text-lg my-6 px-5 py-3 rounded-md border border-[#5AC9F4]">Gallery (soon!)</button></Link><br />
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
             mollit anim id est laborum:<br />
@@ -36,8 +36,8 @@ export default function Tools() {
             mollit anim id est laborum:<br />
           <Link href="/lumresearch" target="_blank"><button className="lg:w-[20vw] lg:font-semibold lg:text-[#404040] lg:bg-[#FCFAFF] hover:lg:bg-[#5AC9F4] hover:lg:border-[#FCFAFF] lg:text-lg lg:mt-6 lg:px-5 lg:py-3 lg:rounded-md lg:border-2 lg:border-[#5AC9F4]">Lum Research</button></Link>
           </h3>
-          <div className="lg:w-full lg:items-center lg:justify-center lg:pt-24 lg:border-l lg:border-l-[#FCFAFF]">
-            <Image src="/liluzi.png" className="lg:w-[45vw] lg:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
+          <div className="lg:w-full lg:items-center lg:justify-center lg:pt-10 lg:border-l lg:border-l-[#FCFAFF]">
+            <Image src="/liluzi.png" className="lg:w-[40vw] lg:ml-auto" width="400" height="400" alt="Lil Uzi Vert by SomeHoodlum" />
           </div>
         </div>
       </div>
