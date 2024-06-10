@@ -22,9 +22,9 @@ export default function Socials() {
         <h2 className="lg:mx-auto lg:text-[#FCFAFF] lg:font-marker lg:text-4xl">Socials</h2>
         <div className="lg:w-[70vw] lg:flex lg:flex-row">
           <div className="lg:w-[50vw] lg:pt-12 lg:flex lg:flex-row lg:px-32 lg:justify-center lg:items-center">
-            <Link href="https://twitter.com/HoodlumsNFT"><Image src="./twitter-icon.svg" width="60" height="60" alt="Hoodlums Twitter" className="lg:mx-10" /></Link>
-            <Link href="/"><Image src="./ig-icon.svg" width="65" height="65" alt="Hoodlums Instagram" className="lg:mx-10" /></Link>
-            <Link href=""><Image src="./discord.svg" width="75" height="75" alt="Hoodlums Discord" className="lg:mx-10" /></Link>
+            <Link href="https://twitter.com/HoodlumsNFT"><Image src="./twitter-icon.svg" width="50" height="50" alt="Hoodlums Twitter" className="lg:mx-10" /></Link>
+            <Link href="/"><Image src="./ig-icon.svg" width="55" height="55" alt="Hoodlums Instagram" className="lg:mx-10" /></Link>
+            <Link href=""><Image src="./discord.svg" width="65" height="65" alt="Hoodlums Discord" className="lg:mx-10" /></Link>
           </div>
           <div className="lg:w-[50vw] lg:pt-8">
             <Image src="/socials.png" className="lg:w-full" width="400" height="400" alt="Art by SomeHoodlum" />
